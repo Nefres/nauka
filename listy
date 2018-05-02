@@ -1,0 +1,11 @@
+produkty = ["mleko", "ser", "parowki", "mleko"]
+wiecej_produktow = ["ketchup", "papryka"]
+produkty.extend(wiecej_produktow)
+
+produkty.append("mieso")
+
+x = produkty.count("mleko")
+print(x)
+
+print(type(produkty))
+print(produkty)
