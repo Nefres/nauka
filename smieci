@@ -1,0 +1,15 @@
+# write your name and age
+
+name = input("podaj swoje imie: ")
+age = int(input('podaj swoj wiek: '))
+print('nazywasz sie',name, "i masz", age,'lat')
+year = str((2018 - age) + 100)
+print('w',year, 'bedziesz miec 100 lat')
+print('jak dozyjesz...')
+
+# liczby in range podzielne przez 7 ale nie przez 5
+l=[]
+for i in range(2000, 3201):
+    if (i%7==0) and (i%5!=0):
+        l.append(str(i))
+ print (','.join(l))
